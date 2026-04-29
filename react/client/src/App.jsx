@@ -4,6 +4,7 @@ import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import './App.css'
 import axios from 'axios'
+import Product from './Product'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -20,8 +21,8 @@ function App() {
   return (
     <>
       <div className='text-red-500'>
-        hello
-        </div>  
+        <Product></Product>
+      </div>  
     </>
   )
 }
